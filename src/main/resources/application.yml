@@ -21,7 +21,7 @@ spring:
   jpa:
     open-in-view: true
     hibernate:
-      ddl-auto: create
+      ddl-auto: update #서버를 다시 실행해도 데이터 유지 #create(서버 재실행시 insert한 데이터 다 사라짐)<=>update,none
       naming:
         physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
     show-sql: true
@@ -35,6 +35,17 @@ spring:
     user:
       name: test
       password: 1234   
-
-#file:
-#  path: C:/workspace/springbootwork/upload/
+      
+      
+    oauth2:
+      client:
+        registration:
+          facebook:
+            client-id: 284018867350965
+            client-secret: 11dba892ff67a1a4010f0c6c96015602
+            scope:
+            - public_profile
+            - email
+          
+file:
+  path: C:/workspace/springbootwork/upload/
