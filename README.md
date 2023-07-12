@@ -23,4 +23,4 @@
 - lombok
 
 ## 테이블 설계
-!https://user-images.githubusercontent.com/122352251/248776230-fb885369-9e33-42b5-a69c-cc5456b66860.png
+![image (2)](https://github.com/controller22/Springboot-Jpa-instagram-/assets/122349890/fa9ef34b-a90e-49d9-83fd-fbf4aa8d8018)
