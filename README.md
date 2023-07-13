@@ -5,7 +5,7 @@
   <td>심동환</td>
   <td> 
     - 요청 DTO Entity </br>
-    - Password 암호화 
+    - Password 암호화 </br>
     - 유효성 체크
   </td>
 </tr>
