@@ -65,10 +65,13 @@
       - 기본 세팅
       - 로그인 페이지 및 OAuth 연동
     </td> 
+|</tr>
+  <tr>
+    <td> AOP</td> | <td>심동환</td> |<td> - @Valid Exception 공통 처리 분리</td> 
+  </tr>
 |<tr>
-    <td> AOP</td> | <td>심동환</td> |<td> - @Valid Exception 공통 처리 분리</td> |
-|<tr>
-    <td> OAuth</td> |<td> 심동환</td> | <td>- 페이스북 OAuth</td> |
+    <td> OAuth</td> |<td> 심동환</td> | <td>- 페이스북 OAuth</td> 
+</tr>|
 </table>
 
 ## 기술 스택
