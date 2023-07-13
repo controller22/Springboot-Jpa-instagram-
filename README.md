@@ -25,15 +25,15 @@
       - 유효성 체크 
     </td>
   </tr>
-|  <tr>
-    <td>구독하기 </tr> | 
+  <tr>
+    <td>구독하기 </td> 
   <td>심동환 </td> |  
   <td>
     - API. NativeQuery
     - 스칼라 서브쿼리
     - qlrm 라이브러리 (DTO에 return)
-  </td>|
-| <tr>
+  </td>
+ <tr>
     <td>프로필페이지</td> | <td>심동환</td> | <td>- 요청 DTO, MulktipartpartFIle 바이트처리 및 저장
 - @Value (파일 경로 설정 파일에 저장)
 - 사진변경
@@ -57,12 +57,16 @@
     <td> 댓글 기능</td> |<td> 심동환 </td>|<td> - Comment Entity
 - 댓글 렌더링
 - 댓글 쓰기/ 삭제
-</td>|
+</td>
+<tr>
+    <td> Security</td> 
+    <td> 심동환<td>
+    <td>
+      - 기본 세팅
+      - 로그인 페이지 및 OAuth 연동
+    </td> 
 |<tr>
-    <td> Security<td> |<td> 심동환<td>| <td>- 기본 세팅
-- 로그인 페이지 및 OAuth 연동</td> |
-|<tr>
-    <td> AOP</td> | <td>심동환</td> |<td> - @Valid Exception 공통 처리 분리</tr>td> |
+    <td> AOP</td> | <td>심동환</td> |<td> - @Valid Exception 공통 처리 분리</td> |
 |<tr>
     <td> OAuth</td> |<td> 심동환</td> | <td>- 페이스북 OAuth</td> |
 </table>
