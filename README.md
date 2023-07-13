@@ -1,7 +1,7 @@
 ### 전체요약
 <table>
 <tr>
-  <td>회원가입 </tr><td>심동환</td>|<td> - 요청 DTO Entity
+  <td>회원가입 </td><td>심동환</td>|<td> - 요청 DTO Entity
   
 - Password 암호화
 - 유효성 체크</td>
