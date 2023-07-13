@@ -1,8 +1,11 @@
 ### 전체요약
-
-| 회원가입 | 심동환 | - 요청 DTO Entity
+<table>
+<tr>
+  <td>회원가입 </tr><td>심동환</td>|<td> - 요청 DTO Entity
+  
 - Password 암호화
-- 유효성 체크 |
+- 유효성 체크</td>
+</tr>
 | --- | --- | --- |
 | 로그인 | 심동환 | - SecurityConfig
 - UesrDetailsService, UesrDetails |
@@ -29,6 +32,7 @@
 - 로그인 페이지 및 OAuth 연동 |
 | AOP | 심동환 | - @Valid Exception 공통 처리 분리 |
 | OAuth | 심동환 | - 페이스북 OAuth |
+</table>
 
 ## 기술 스택
 
