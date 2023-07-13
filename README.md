@@ -10,8 +10,8 @@
   </td>
 </tr>
 <tr>
- <td>로그인</td> | 
-  <td>심동환</td> | 
+ <td>로그인</td> 
+  <td>심동환</td> 
   <td>
     - SecurityConfig</br>
     - UesrDetailsService, UesrDetails
@@ -29,48 +29,62 @@
     <td>구독하기 </td> 
   <td>심동환 </td> |  
   <td>
-    - API. NativeQuery
-    - 스칼라 서브쿼리
+    - API. NativeQuery</br>
+    - 스칼라 서브쿼리</br>
     - qlrm 라이브러리 (DTO에 return)
   </td>
  <tr>
-    <td>프로필페이지</td> | <td>심동환</td> | <td>- 요청 DTO, MulktipartpartFIle 바이트처리 및 저장
-- @Value (파일 경로 설정 파일에 저장)
-- 사진변경
-- 렌더링 (WebMvcConfigurer 경로저장) </td>
-| <tr>
-    <td>메인 페이지</td> | <td>심동환</td> | <td>- 응답 후 JPA 페이징
-- JavaScript에서 스크롤 코드 진행</td> |
-|<tr>
-    <td> 좋아요</td> | 
-  <td>심동환</td> | 
+    <td>프로필페이지</td> 
+     <td>심동환</td> 
+   <td>
+     - 요청 DTO, MulktipartpartFIle 바이트처리 및 저장</br>
+    - @Value (파일 경로 설정 파일에 저장)</br>
+    - 사진변경</br>
+    - 렌더링 (WebMvcConfigurer 경로저장) </td>
+ <tr>
+    <td>메인 페이지</td>
+    <td>심동환</td>
+    <td>
+      - 응답 후 JPA 페이징</br>
+      - JavaScript에서 스크롤 코드 진행</td>
+<tr>
+  <td> 좋아요</td> 
+  <td>심동환</td> 
   <td>
-    - Likes Entity
-- 최초 페이지 요청 / 클릭/ 개수 렌더링 </td>|
-|<tr>
-    <td> 인기 페이지</td> | <td>심동환</td> | 
-  <td>
-      - Inner Join
-      - 렌더링 |
-|</td>
+    - Likes Entity</br>
+    - 최초 페이지 요청 / 클릭/ 개수 렌더링 </td>
+<tr>
+    <td> 인기 페이지</td>
+    <td>심동환</td>  
+    <td>
+      - Inner Join</br>
+      - 렌더링 
+</td>
   <tr>
-    <td> 댓글 기능</td> |<td> 심동환 </td>|<td> - Comment Entity
-- 댓글 렌더링
-- 댓글 쓰기/ 삭제
+    <td> 댓글 기능</td>
+    <td> 심동환 </td>
+    <td>
+      - Comment Entity</br>
+      - 댓글 렌더링</br>
+      - 댓글 쓰기/ 삭제
 </td>
 <tr>
     <td> Security</td> 
     <td> 심동환</td>
     <td>
-      - 기본 세팅
+      - 기본 세팅</br>
       - 로그인 페이지 및 OAuth 연동
     </td> 
 |</tr>
   <tr>
-    <td> AOP</td> | <td>심동환</td> |<td> - @Valid Exception 공통 처리 분리</td> 
+    <td> AOP</td>
+    <td>심동환</td> 
+    <td> - @Valid Exception 공통 처리 분리</td> 
   </tr>
-|<tr>
-    <td> OAuth</td> |<td> 심동환</td> | <td>- 페이스북 OAuth</td> 
+<tr>
+    <td> OAuth</td>
+    <td> 심동환</td> 
+    <td>- 페이스북 OAuth</td> 
 </tr>|
 </table>
 
