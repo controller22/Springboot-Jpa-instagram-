@@ -60,7 +60,7 @@
 </td>
 <tr>
     <td> Security</td> 
-    <td> 심동환<td>
+    <td> 심동환</td>
     <td>
       - 기본 세팅
       - 로그인 페이지 및 OAuth 연동
