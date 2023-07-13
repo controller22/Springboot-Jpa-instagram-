@@ -4,7 +4,7 @@
   <td>회원가입 </td>
   <td>심동환</td>
   <td> 
-    - 요청 DTO Entity 
+    - 요청 DTO Entity </br>
     - Password 암호화 
     - 유효성 체크
   </td>
