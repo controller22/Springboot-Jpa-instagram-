@@ -9,32 +9,62 @@
     - 유효성 체크
   </td>
 </tr>
-| --- | --- | --- |
-| 로그인 | 심동환 | - SecurityConfig
-- UesrDetailsService, UesrDetails |
-| 회원정보수정 | 심동환 | - 요청 DTO, Ajax 통신
-- Security tags (Session 접근)
-- 유효성 체크 |
-| 구독하기 | 심동환 | - API. NativeQuery
-- 스칼라 서브쿼리
-- qlrm 라이브러리 (DTO에 return)  |
-| 프로필페이지 | 심동환 | - 요청 DTO, MulktipartpartFIle 바이트처리 및 저장
+<tr>
+ <td>로그인</td> | 
+  <td>심동환</td> | 
+  <td>
+    - SecurityConfig</br>
+    - UesrDetailsService, UesrDetails
+  </td>|
+  <tr>
+    <td> 회원정보수정 </td>
+    <td>심동환 </td>| 
+    <td>
+      - 요청 DTO, Ajax 통신</br>
+      - Security tags (Session 접근)</br>
+      - 유효성 체크 
+    </td>
+  </tr>
+|  <tr>
+    <td>구독하기 </tr> | 
+  <td>심동환 </td> |  
+  <td>
+    - API. NativeQuery
+    - 스칼라 서브쿼리
+    - qlrm 라이브러리 (DTO에 return)
+  </td>|
+| <tr>
+    <td>프로필페이지</td> | <td>심동환</td> | <td>- 요청 DTO, MulktipartpartFIle 바이트처리 및 저장
 - @Value (파일 경로 설정 파일에 저장)
 - 사진변경
-- 렌더링 (WebMvcConfigurer 경로저장) |
-| 메인 페이지 | 심동환 | - 응답 후 JPA 페이징
-- JavaScript에서 스크롤 코드 진행 |
-| 좋아요 | 심동환 | - Likes Entity
-- 최초 페이지 요청 / 클릭/ 개수 렌더링 |
-| 인기 페이지 | 심동환 | - Inner Join
-- 렌더링 |
-| 댓글 기능 | 심동환 | - Comment Entity
+- 렌더링 (WebMvcConfigurer 경로저장) </td>
+| <tr>
+    <td>메인 페이지</td> | <td>심동환</td> | <td>- 응답 후 JPA 페이징
+- JavaScript에서 스크롤 코드 진행</td> |
+|<tr>
+    <td> 좋아요</td> | 
+  <td>심동환</td> | 
+  <td>
+    - Likes Entity
+- 최초 페이지 요청 / 클릭/ 개수 렌더링 </td>|
+|<tr>
+    <td> 인기 페이지</td> | <td>심동환</td> | 
+  <td>
+      - Inner Join
+      - 렌더링 |
+|</td>
+  <tr>
+    <td> 댓글 기능</td> |<td> 심동환 </td>|<td> - Comment Entity
 - 댓글 렌더링
-- 댓글 쓰기/ 삭제 |
-| Security | 심동환 | - 기본 세팅
-- 로그인 페이지 및 OAuth 연동 |
-| AOP | 심동환 | - @Valid Exception 공통 처리 분리 |
-| OAuth | 심동환 | - 페이스북 OAuth |
+- 댓글 쓰기/ 삭제
+</td>|
+|<tr>
+    <td> Security<td> |<td> 심동환<td>| <td>- 기본 세팅
+- 로그인 페이지 및 OAuth 연동</td> |
+|<tr>
+    <td> AOP</td> | <td>심동환</td> |<td> - @Valid Exception 공통 처리 분리</tr>td> |
+|<tr>
+    <td> OAuth</td> |<td> 심동환</td> | <td>- 페이스북 OAuth</td> |
 </table>
 
 ## 기술 스택
