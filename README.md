@@ -18,7 +18,7 @@
   </td>
   <tr>
     <td> 회원정보수정 </td>
-    <td>심동환 </td>| 
+    <td>심동환 </td>
     <td>
       - 요청 DTO, Ajax 통신</br>
       - Security tags (Session 접근)</br>
