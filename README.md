@@ -15,7 +15,7 @@
   <td>
     - SecurityConfig</br>
     - UesrDetailsService, UesrDetails
-  </td>|
+  </td>
   <tr>
     <td> 회원정보수정 </td>
     <td>심동환 </td>| 
@@ -27,7 +27,7 @@
   </tr>
   <tr>
     <td>구독하기 </td> 
-  <td>심동환 </td> |  
+  <td>심동환 </td> 
   <td>
     - API. NativeQuery</br>
     - 스칼라 서브쿼리</br>
@@ -75,7 +75,7 @@
       - 기본 세팅</br>
       - 로그인 페이지 및 OAuth 연동
     </td> 
-|</tr>
+</tr>
   <tr>
     <td> AOP</td>
     <td>심동환</td> 
@@ -85,7 +85,7 @@
     <td> OAuth</td>
     <td> 심동환</td> 
     <td>- 페이스북 OAuth</td> 
-</tr>|
+</tr>
 </table>
 
 ## 기술 스택
